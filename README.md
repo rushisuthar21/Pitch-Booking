@@ -41,6 +41,10 @@ This project focuses on **database design, normalization, relationships, constra
 - A **Game** includes players and sponsors  
 
 ---
+![prj_sql](https://github.com/user-attachments/assets/91a0e2d9-a1cd-43e1-b166-a63badb7433f)
+
+![MtoM](https://github.com/user-attachments/assets/b27df0b4-0e6d-4ae8-b3eb-04a706ee6daf)
+
 
 ## 🧱 Relational Schema
 CUSTOMER(customer_id, first_name, last_name, email, password, gender, phone, address, date_of_birth)
@@ -255,7 +259,8 @@ SELECT DISTINCT c.first_name
 FROM CUSTOMER c
 WHERE c.customer_id IN (SELECT customer_id FROM FEEDBACK);
 
-✅ Conclusion
+-----------------------------------------------------------------
+## ✅ Conclusion
 This project demonstrates:
 
 Complete database lifecycle
@@ -265,3 +270,4 @@ Strong normalization
 Real-world business rules
 
 Advanced SQL usage with constraints, joins, and aggregates
+---
